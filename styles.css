@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header-container{
+    background-color: #120323;
+    color: #97bf04;
+  display: block;
+ justify-items:center;
+ padding: 1rem;
+    
+}
+main{
+    padding: 1rem 2rem;
+}
+figure img{
+border: #d9043d solid 2px;
+display: block;
+margin: auto;
+width: 100%;
+
+}
+figure h2{
+padding:  1rem 0rem;
+color: #120323;
+}
+figcaption p{ padding: 1rem 0rem;
+
+}
+aside{
+    background-color: #97bf04;
+    padding: 1rem 0.5rem;
+}
+aside p{
+    padding: 0.5rem 0.5rem;
+}
+aside h3{
+    padding: 0.5rem 0.5rem;
+}
+footer{ 
+    background-color: #d9043d;
+margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
