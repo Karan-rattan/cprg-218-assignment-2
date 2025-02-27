@@ -45,7 +45,7 @@ margin-top: 1rem;
     color: white;
 }
 
-
+/*Media query to set up content for the tablet variation*/
 @media all and (min-width: 768px)
 { .header-container{
 display: flex;
@@ -84,8 +84,39 @@ aside{
 }
 
 }
-
+/* media query to fix the breakpoint at 909px*/
 @media all and (min-width: 909px)
     {
-        aside{ margin-top: 2rem;}
+        aside{ margin-top: 2rem;
+        }
     }
+
+/* Media query to set up content for desktop variation*/
+@media all and (min-width: 1000px)
+{
+   #container{
+    display: flex;
+    justify-content: space-between;
+   }
+    figure img{ width: 100%;
+      
+        margin-bottom:5rem ;
+    }
+    aside{
+        max-width: 33%;
+    }
+    .header-container img{
+        width: 100px;
+        height: 100px;
+    }
+    .header-container{
+        padding: 0.7rem;
+    }
+     
+    .header-container h1{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+
+  
+}
