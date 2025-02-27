@@ -110,7 +110,7 @@ aside{
         height: 100px;
     }
     .header-container{
-        padding: 0.7rem;
+        padding: 1rem;
     }
      
     .header-container h1{
@@ -119,4 +119,24 @@ aside{
     }
 
   
+}
+@media all and (max-width: 449px)
+{ 
+   
+    *{
+        font-size: 12px;
+    }
+    .header-container h1{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .header-container img{
+        width: 70px;
+        height: 70px;
+    }
+    figure img{
+        width: 100%;
+        max-width: 250px;
+        max-height: 250px;
+    }
 }
