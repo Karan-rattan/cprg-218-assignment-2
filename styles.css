@@ -33,12 +33,10 @@ aside{
     background-color: #97bf04;
     padding: 1rem 0.5rem;
 }
-aside p{
+aside p, aside h3{
     padding: 0.5rem 0.5rem;
 }
-aside h3{
-    padding: 0.5rem 0.5rem;
-}
+
 footer{ 
     background-color: #d9043d;
 margin-top: 1rem;
@@ -46,3 +44,48 @@ margin-top: 1rem;
     text-align: center;
     color: white;
 }
+
+
+@media all and (min-width: 768px)
+{ .header-container{
+display: flex;
+padding: 2rem;
+justify-content: center;
+
+
+}
+
+
+.header-container h1{
+    padding: 3rem 0rem 0rem 1rem;
+    font-size: 1.9rem;
+}
+
+figure img{ float: left;
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+   margin: 2rem;
+   border: #d9043d solid 4px;
+
+}
+figcaption{
+    font-size: 12px;
+    letter-spacing: 0.3px;
+   
+  
+}
+figcaption p{ 
+    padding: 0.5rem;
+    
+}
+aside{
+    font-size: 14px;
+}
+
+}
+
+@media all and (min-width: 909px)
+    {
+        aside{ margin-top: 2rem;}
+    }
